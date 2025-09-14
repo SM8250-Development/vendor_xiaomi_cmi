@@ -324,9 +324,13 @@ PRODUCT_PACKAGES += \
     com.qti.chi.override \
     fingerprint.goodix_fod.default \
     vendor.qti.hardware.sensorscalibrate@1.0-impl \
+    libHalSuperSensorServer \
     libMIAIHDRhvx_interface \
     libSNPE \
+    libSuperSensor \
+    libSuperSensorCPU \
     libalAILDC \
+    libalCFR \
     libalLDC \
     libalhLDC \
     libarcdualcamsat \
@@ -377,6 +381,8 @@ PRODUCT_PACKAGES += \
     libgf_hal \
     libhta \
     libipebpsstriping \
+    libmiai_deblur \
+    libmialgo_ie_capture \
     libmialgo_ie_preview \
     libmialgo_image_colourkeeping \
     libmialgo_rfs \
@@ -385,6 +391,7 @@ PRODUCT_PACKAGES += \
     libmialgo_video_colourkeeping \
     libmialgo_video_enhance \
     libmialgo_video_seg \
+    libmialgoengine \
     libmibokeh_845_video \
     libmibokeh_855 \
     libmpbase \
@@ -395,6 +402,7 @@ PRODUCT_PACKAGES += \
     libnpu \
     libofflinelog \
     libos \
+    librelight_only \
     libremosaic_wrapper \
     libremosaichvx_stub \
     libremosaiclib \
